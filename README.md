@@ -12,7 +12,7 @@
 
 ---
 
-## 📸 Visualisations
+## Visualisations
 
 ### Pairplot - Feature relationships and species separability across all numeric feature
 ![Pairplot by Species](docs/pairplot-species.png)
@@ -31,7 +31,7 @@
 
 ---
 
-## 📐 Pipeline Overview
+## Pipeline Overview
 
 ```
 Stage 1 — EDA & Feature Engineering
@@ -66,7 +66,7 @@ Stage 5 — Supervised Regression
 
 ---
 
-## 🧠 Design Decisions
+## Design Decisions
 
 **Leakage prevention via sklearn Pipelines** - All preprocessing (RobustScaler, OneHotEncoder via ColumnTransformer) is encapsulated inside Pipeline objects. This ensures the scaler is fit only on training data within each cross-validation fold — a common source of data leakage when preprocessing is applied before splitting. Every model uses the same pipeline structure for fair comparison.
 
@@ -84,7 +84,7 @@ Stage 5 — Supervised Regression
 
 ---
 
-## 📊 Results
+## Results
 
 ### Classification
 
@@ -122,7 +122,7 @@ Stage 5 — Supervised Regression
 
 ---
 
-## 📋 Dataset
+## Dataset
 
 | Property | Value |
 |---|---|
@@ -137,7 +137,7 @@ Stage 5 — Supervised Regression
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.8+
@@ -157,7 +157,7 @@ Open `Ahmed_Ikram_2571642_Final_Project.ipynb` in Jupyter or VS Code and run all
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 | Concern | Tools |
 |---|---|
@@ -172,7 +172,7 @@ Open `Ahmed_Ikram_2571642_Final_Project.ipynb` in Jupyter or VS Code and run all
 
 ---
 
-## 📁 Related Project From Me
+## Related Project From Me
 
 - [CineMatch Recommendation System](https://github.com/AhmedIkram05/movie-recommendation-system) - hybrid ML recommendation engine benchmarked across three strategies
 - [ATM Log Aggregation & Diagnostics Platform](https://github.com/AhmedIkram05/laad) - production data engineering with RAG diagnostic assistant
