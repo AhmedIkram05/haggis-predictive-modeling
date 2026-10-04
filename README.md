@@ -148,7 +148,7 @@ Stage 5 — Supervised Regression
 ```bash
 git clone https://github.com/AhmedIkram05/haggis-predictive-modeling.git
 cd haggis-predictive-modeling
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost jinja2
+pip install -r requirements.txt
 ```
 
 ### Run
@@ -166,7 +166,7 @@ Open `Ahmed_Ikram_2571642_Final_Project.ipynb` in Jupyter or VS Code and run all
 | Preprocessing | Scikit-learn (RobustScaler, ColumnTransformer, OneHotEncoder) |
 | Clustering | Scikit-learn (KMeans, DBSCAN) |
 | Classification | Scikit-learn (DecisionTree, RandomForest, GradientBoosting, KNN, LogisticRegression) |
-| Boosting | XGBoost (via sklearn GradientBoostingClassifier) |
+| Boosting | Scikit-learn (GradientBoostingClassifier) |
 | Dimensionality reduction | Scikit-learn PCA |
 | Regression | Scikit-learn LinearRegression |
 
